@@ -5,3 +5,20 @@ page-mainpage {
 .mainimage {
     padding-left: 14px;
 }
+
+.inlinetext {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+page-mainpage ion-app.ios [padding] .scroll-content {
+    padding: 0px!important;
+}
+
+.test {
+    width: 108%;
+    margin-left: -4%;
+    margin-top: -4%;
+    margin-bottom: 3%;
+}

@@ -20,18 +20,25 @@
 
 <ion-content padding style="background-color: #fff;">
 
+<div class="test"><ion-searchbar
+  [(ngModel)]="myInput"
+  [showCancelButton]="shouldShowCancel"
+  (ionInput)="onInput($event)"
+  (ionCancel)="onCancel($event)">
+</ion-searchbar></div>
+
 <ion-grid>
   <ion-row>
-    <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/1.png" height="180px"></ion-col>
-     <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/2.png" height="180px"></ion-col>
+    <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/1.png" height="165px"><div class="inlinetext">Bill of Sale</div></ion-col>
+     <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/2.png" height="165px"><div class="inlinetext">Lease</div></ion-col>
   </ion-row>
   <ion-row>
-    <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/3.png" height="180px"></ion-col>
-     <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/4.png" height="180px"></ion-col>
+    <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/3.png" height="165px"><div class="inlinetext">Rental</div></ion-col>
+     <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/4.png" height="165px"><div class="inlinetext">Contractor</div></ion-col>
   </ion-row>
   <ion-row>
-    <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/5.png" height="180px"></ion-col>
-     <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/6.png" height="180px"></ion-col>
+    <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/5.png" height="165px"><div class="inlinetext">Employment</div></ion-col>
+     <ion-col col-6><img onclick="window.location.href='#contract'" src="../../assets/img/6.png" height="165px"><div class="inlinetext">Photography</div></ion-col>
   </ion-row>
 </ion-grid>
 
