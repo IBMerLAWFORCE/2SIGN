@@ -9,7 +9,7 @@ import { IonicPage, NavController } from 'ionic-angular';
 export class CardsPage {
   cardItems: any[];
 
-  constructor(public navCtrl: NavController) {
+  /*constructor(public navCtrl: NavController) {
     this.cardItems = [
       {
         user: {
@@ -40,5 +40,5 @@ export class CardsPage {
       }
     ];
 
-  }
+  }*/
 }
