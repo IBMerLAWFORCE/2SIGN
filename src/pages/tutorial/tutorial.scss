@@ -1,11 +1,13 @@
 page-tutorial {
   .toolbar-background {
-    background: transparent;
+    background-color: #FDBA12;
     border-color: transparent;
   }
 
   .slide-zoom {
     height: 100%;
+
+
   }
 
   .slide-title {
@@ -16,6 +18,8 @@ page-tutorial {
     max-height: 40%;
     max-width: 60%;
     margin: 36px 0;
+
+
   }
 
   b {
@@ -24,13 +28,16 @@ page-tutorial {
 
   p {
     padding: 0 40px;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.5;
     color: #60646B;
 
     b {
-      color: #000000;
+      color: #FFD700;
+
     }
+    
+
   }
 
 }
