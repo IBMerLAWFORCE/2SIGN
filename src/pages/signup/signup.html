@@ -1,24 +1,28 @@
 <ion-header>
-
   <ion-navbar>
+    <button ion-button menuToggle icon-only>
+      <ion-icon name='menu'></ion-icon>
+    </button>
+    <div class="mainimage"><img src="../assets/img/2SIGN.1-01.png" height="45px"></div>
     <ion-title>{{ 'SIGNUP_TITLE' | translate }}</ion-title>
+    <ion-title> 
+    </ion-title>
   </ion-navbar>
-
 </ion-header>
 
 
 <ion-content>
-  <form (submit)="doSignup()">
+  <form>
     <ion-list>
 
       <ion-item>
         <ion-label fixed>{{ 'NAME' | translate }}</ion-label>
-        <ion-input type="text" [(ngModel)]="account.name" name="name"></ion-input>
+        <ion-input type="text" name="name"></ion-input>
       </ion-item>
 
       <ion-item>
         <ion-label fixed>{{ 'EMAIL' | translate }}</ion-label>
-        <ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
+        <ion-input type="email" name="email"></ion-input>
       </ion-item>
 
       <!--
@@ -32,11 +36,11 @@
 
       <ion-item>
         <ion-label fixed>{{ 'PASSWORD' | translate }}</ion-label>
-        <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
+        <ion-input type="password" name="password"></ion-input>
       </ion-item>
 
       <div padding>
-        <button ion-button color="primary" block>{{ 'SIGNUP_BUTTON' | translate }}</button>
+        <button ion-button color="primary" block onclick="window.location.href='#login'">{{ 'SIGNUP_BUTTON' | translate }}</button>
       </div>
 
     </ion-list>
