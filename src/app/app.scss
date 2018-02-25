@@ -1,4 +1,4 @@
-// http://ionicframework.com/docs/v2/theming/
+// http://ionicframework.com/docs/theming/
 
 
 // App Global Sass
@@ -14,10 +14,3 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
-
-
-page-welcome .splash-bg {
-  background: url("../assets/img/2SIGN-02.png") no-repeat transparent!important;
-  -webkit-animation: animatedBackground 10s linear infinite!important;
-  animation: animatedBackground 10s linear infinite!important;
-}
