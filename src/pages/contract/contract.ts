@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
@@ -23,3 +24,8 @@ export class ContractPage {
   }
 
 }
+
+@Component({
+  templateUrl: 'contract.html'
+})
+export class SizesPage { }
