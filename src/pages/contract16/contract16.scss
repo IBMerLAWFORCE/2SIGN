@@ -1,3 +1,68 @@
 page-contract16 {
 
 }
+
+.sellerButton16 {
+    height: 110px;
+    margin-top:20px;
+}
+
+.buyerButton16 {
+    height: 110px;
+    margin-bottom:20px;
+}
+
+.bothButtons16{
+	padding-top	: 30%;
+}
+
+
+
+.cusheader16 {
+    font-size: 29px;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+span.check {
+     display: none; 
+    margin-left: 13px;
+}
+
+.moveimg {
+    margin-top: 12%;
+}
+
+.moveimg img{
+	max-width:120%!important;
+	margin-left: -20px;
+	width: 109%;
+}
+
+.play img {
+    padding-left: 38%;
+}
+
+.play16 {
+    margin-left: 30%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    height: 160px;
+    width: 160px;
+    background-image: url(../../assets/img/nonanimated.png);
+    background-repeat: no-repeat;
+    background-size: 160px 160px;
+}
+
+.play16:hover { 
+    background-image: url(../../assets/img/croppedbetter.gif);
+    background-repeat: no-repeat;
+    background-size: 160px 160px;
+}
+
+.buttoncol
+{
+	background-color: #fdba12;
+}

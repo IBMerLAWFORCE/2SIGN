@@ -1,3 +1,52 @@
 page-contract15 {
 
 }
+
+.cusheader15 {
+    font-size: 29px;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+span.check {
+     display: none; 
+    margin-left: 13px;
+}
+
+.moveimg {
+    margin-top: 12%;
+}
+
+.moveimg img{
+	max-width:120%!important;
+	margin-left: -20px;
+	width: 109%;
+}
+
+.play img {
+    padding-left: 38%;
+}
+
+.play15 {
+    margin-left: 30%;
+    margin-bottom: 3%;
+    margin-top: 15%;
+    height: 160px;
+    width: 160px;
+    background-image: url(../../assets/img/nonanimated.png);
+    background-repeat: no-repeat;
+    background-size: 160px 160px;
+}
+
+.play15:hover { 
+    background-image: url(../../assets/img/croppedbetter.gif);
+    background-repeat: no-repeat;
+    background-size: 160px 160px;
+}
+
+.buttoncol
+{
+	background-color: #fdba12;
+}

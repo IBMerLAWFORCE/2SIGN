@@ -1,14 +1,14 @@
-page-contract12 {
+page-conditionbuyer {
 
 }
 
 
-.cusheader {
-    font-size: 29px;
+.cusheaderconb {
+    font-size: 23px;
     font-weight: 600;
     text-align: left;
     padding-top: 5%;
-    padding-left: 17%;
+    padding-left: 5%;
 }
 
 span.check {
@@ -30,10 +30,10 @@ span.check {
     padding-left: 38%;
 }
 
-.play12 {
+.playconb {
     margin-left: 30%;
-    margin-bottom: 10%;
-    margin-top: 20%;
+    margin-bottom: 3%;
+    margin-top: 3%;
     height: 160px;
     width: 160px;
     background-image: url(../../assets/img/nonanimated.png);
@@ -41,7 +41,7 @@ span.check {
     background-size: 160px 160px;
 }
 
-.play12:hover { 
+.playconb:hover { 
     background-image: url(../../assets/img/croppedbetter.gif);
     background-repeat: no-repeat;
     background-size: 160px 160px;
